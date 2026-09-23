@@ -17,16 +17,10 @@ h1 {
 }
 
 h2 {
-    color: #1a94ff;
-}
-
-h3 {
-    color: #1a94ff;;
-}
-
-table { 
-    font-size: 0.6em;
-    color:#d3740e;
+    color: #c43410;
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: underline #c43410;
+    
 }
 
 img {
@@ -54,9 +48,18 @@ li.nav {
     justify-content: flex-start;
 }
 
+li.name {
+    list-style: none;
+}
+
 li.me {
     margin-bottom: 30px;
     color: rgb(189, 90, 113);
+}
+
+ul.cv {
+    margin-bottom: 30px;
+    color: #532a63;
 }
 
 a:link {
