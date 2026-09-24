@@ -26,7 +26,7 @@ img {
     max-width: 100%;
 }
 
-.container {
+.container { /*this is the grid in use*/
     display: grid;
     grid-template-columns: 1fr 2fr;
     font-size: 150%;
@@ -43,7 +43,7 @@ li.nav {
     list-style: none;
 }
 
-.navbar {
+.navbar { /*This is the flexbox in use*/
     display: flex;
     justify-content: flex-start;
     font-size: 150%;
