@@ -13,9 +13,9 @@ h1 {
 }
 
 h2.second {
-    color: #c43410;
+    color: #ac165c;
     font-family: 'Times New Roman', Times, serif;
-    text-decoration: underline #c43410;
+    text-decoration: underline #ac165c;
 }
 
 img {
@@ -76,6 +76,11 @@ li.me {
 ul.cv {
     margin-bottom: 30px;
     color: #532a63;
+}
+
+p.about {
+    margin-bottom: 30px;
+    color:#532a63;
 }
 
 a:link.work {
