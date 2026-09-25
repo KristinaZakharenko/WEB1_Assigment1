@@ -37,6 +37,11 @@ img {
     gap: 30px;
 }
 
+.each {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+
 .bolditalic {
     font-style: italic;
 }
@@ -71,6 +76,21 @@ li.me {
 ul.cv {
     margin-bottom: 30px;
     color: #532a63;
+}
+
+a:link.work {
+    border-style:dashed;
+    border-radius:1em;
+    text-decoration: none;
+}
+a:visited.work {
+    color:rgb(153, 62, 121);
+}
+a:hover.work {
+    color:rgba(102, 28, 105, 0.583);
+}
+a:active.work {
+    color:rgb(227, 69, 190);
 }
 
 a:link {
