@@ -32,12 +32,13 @@ img {
     font-size: 150%;
 }
 
-.projects {
+.projects { /*this is the grid in use*/
     display: grid;
     gap: 30px;
+    grid-template-columns: auto;
 }
 
-.each {
+.each { /*this is the grid in use*/
     display: grid;
     grid-template-columns: 2fr 1fr;
 }
@@ -83,9 +84,9 @@ p.about {
     color:#532a63;
 }
 
-a:link.work {
-    border-style:dashed;
-    border-radius:1em;
+a.work:link { /* Making a nice link */
+    border-style:double ;
+    border-radius:3px ;
     text-decoration: none;
 }
 a:visited.work {
@@ -98,7 +99,7 @@ a:active.work {
     color:rgb(227, 69, 190);
 }
 
-a:link {
+a:link { /* Making a nice link */
     color:rgb(58, 142, 187);
 }
 a:visited {
@@ -110,4 +111,38 @@ a:hover {
 }
 a:active {
     color:rgb(143, 75, 75);
+}
+
+@media screen and (max-width: 375px) { /* Making a recponsive website */
+    .container {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .projects {
+        display: grid;
+        grid-template-columns: auto;
+        gap: 10px;
+    }
+    .each {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 10px;
+    }
+}
+
+@media screen and (min-width: 376px) and (max-width: 768px) { /* Making a recponsive website */
+    .container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    .projects {
+        display: grid;
+        grid-template-columns: auto;
+        gap: 10px;
+    }
+    .each {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 10px;
+    }
 }
